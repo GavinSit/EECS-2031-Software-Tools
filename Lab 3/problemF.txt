@@ -1,0 +1,30 @@
+/***************************************
+* EECS2031 – Lab3 *
+* Author: Sit, Gavin *
+* Email: gavinsit@my.yorku.ca *
+* eecs_username: gavinsit *
+* York Student #: 215043870
+****************************************/
+
+Breakpoint 1 (line 12)
+- mainA = 1
+- mainB = 20000
+
+Breakpoint 2 (line 18)
+- x = 1
+- y = 20000
+- mainA = mainB = undefined
+- We get these values because we are inside the swap function and mainA and 
+  main B are not defined
+
+Breakpoint 3 (line 21)
+- x = 20000
+- y = 1
+- the x and y are swapped
+
+Breakpoint 4 (line 12)
+- mainA = 1
+- mainB = 20000
+- x = y = undefined
+- x and y are defined and used in the swap function so it won't be defined 
+  in the main function
